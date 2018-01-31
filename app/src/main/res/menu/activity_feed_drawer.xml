@@ -15,7 +15,7 @@
         <item
             android:id="@+id/nav_good_deeds"
             android:icon="@drawable/ic_loyalty_black_24dp"
-            android:title="Good Deeds" />
+            android:title="Make someone's day" />
         <!--<item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"

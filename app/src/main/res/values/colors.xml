@@ -5,4 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorRed">#E53935</color>
     <color name="colorLightGray">#EEEEEE</color>
+    <color name="colorCream">#F2CA90</color>
+    <color name="colorLightPink">#F1A2A0</color>
+    <color name="colorDarkWhite">#F4F3EF</color>
+    <color name="colorBlue">#6DBEDC</color>
+    <color name="colorGray">#848FA7</color>
 </resources>

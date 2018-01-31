@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@color/colorBlue"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.ritam.dstress.FeedActivity"
     tools:showIn="@layout/app_bar_feed">
@@ -17,7 +18,10 @@
             android:layout_width="0dp"
             android:layout_weight="3"
             android:id="@+id/text"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorDarkWhite"
             android:layout_height="50dp"
+            android:paddingLeft="10dp"
             android:layout_marginLeft="10dp"
             android:hint="What good happened today?"/>
         <Button
@@ -25,13 +29,17 @@
             android:layout_height="wrap_content"
             android:id="@+id/submit"
             android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
             android:text="Submit"/>
     </LinearLayout>
 
     <ListView
         android:id="@+id/feedList"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:dividerHeight="20.0sp"
+        android:divider="@android:color/transparent">
     </ListView>
 
     <!--<TextView

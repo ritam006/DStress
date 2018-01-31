@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ritam.dstress.MainActivity"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorCream"
     android:fitsSystemWindows="true">
 
     <EditText
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
-        android:textColorHint="@color/colorLightGray"
+        android:textColorHint="@color/colorGray"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/horizontalGuide"
         android:layout_marginRight="40dp"
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:textColorHint="@color/colorLightGray"
+        android:textColorHint="@color/colorGray"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/horizontalGuide"
         android:inputType="textPassword"
@@ -35,7 +35,7 @@
         android:id="@+id/prompt_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No Account Yet ?Create One "
+        android:text="No Account Yet? Create One "
         android:textSize="20sp"
         android:textAllCaps="false"
         android:textColor="@color/colorRed"
@@ -51,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="@color/colorDarkWhite"
         app:layout_constraintStart_toEndOf="@id/pass_field"
         app:layout_constraintEnd_toStartOf="@id/pass_field"
         app:layout_constraintTop_toBottomOf="@id/prompt_signup"/>

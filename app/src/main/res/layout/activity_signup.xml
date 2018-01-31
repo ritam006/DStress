@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorCream"
     tools:context="com.example.ritam.dstress.SignupActivity"
     android:fitsSystemWindows="true">
 
@@ -11,7 +12,7 @@
         android:id="@+id/new_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a username"
+        android:hint="Username"
         android:textAllCaps="false"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
@@ -23,7 +24,7 @@
         android:id="@+id/new_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a password"
+        android:hint="Password"
         android:textAllCaps="false"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
@@ -43,6 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Signup"
+        android:background="@color/colorDarkWhite"
         app:layout_constraintTop_toBottomOf="@id/new_password"
         app:layout_constraintStart_toEndOf="@id/new_password"
         app:layout_constraintEnd_toStartOf="@id/new_password"/>
