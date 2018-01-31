@@ -3,6 +3,7 @@ package com.example.ritam.dstress;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
@@ -185,6 +186,8 @@ public class FeedActivity extends AppCompatActivity
         } else if (id == R.id.nav_History) {
 
         } else if (id == R.id.nav_good_deeds) {
+            Intent intent= new Intent(FeedActivity.this,GoodFeed.class);
+            startActivity(intent);
 
         }
 

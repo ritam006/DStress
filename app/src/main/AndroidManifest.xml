@@ -22,6 +22,10 @@
         <activity
             android:name=".FeedActivity"
             android:label="@string/title_activity_feed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GoodFeed"
+            android:label="@string/title_activity_good_feed"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
